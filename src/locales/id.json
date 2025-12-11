@@ -36,6 +36,29 @@
             "p": "Terhubung dengan broker lokal resmi dan sesuai dengan kebijakan pemerintah Indonesia."
         }
     },
+    "joinUs": {
+        "h2": "Bertumbuh bersama OTTOGAIN",
+        "referral": {
+            "h3": "Referral",
+            "p1": "Rekomendasikan OTTOGAIN",
+            "p2": "Dapatkan komisi dari setiap orang yang bergabung"
+        },
+        "representative": {
+            "h3": "Representatif",
+            "p1": "Bangun pusat edukasi & layanan OTTOGAIN Anda sendiri",
+            "p2": "Semua alat pemasaran sudah disiapkan, Anda tinggal menjalankan"
+        },
+        "career": {
+            "h3": "Karir",
+            "p": {
+                "heading": "Keuntungan bergabung :",
+                "1": "Gaji pokok + tunjangan + bonus performa",
+                "2": "Sertifikasi trading gratis (setelah seleksi & pelatihan)",
+                "3": "Lingkungan kerja nyaman & suportif",
+                "4": "Relasi Profesional Seluruh Indonesia"
+            }
+        }
+    },
     "footer": {
         "address": "Mayapada Tower 2 Lantai 7 Unit 03, Jl. Jenderal Sudirman No.27, RT.4/RW.2, Kuningan, Karet, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12920",
         "email": "support@lmr.co.id",

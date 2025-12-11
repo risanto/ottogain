@@ -33,7 +33,7 @@ export function WhyUs() {
         </div>
       </div>
 
-      <h2 className="mt-2 font-semibold text-[2.5rem] text-white lg:text-[3.5rem] text-center">
+      <h2 className="mt-2 font-semibold text-[2.5rem] text-white lg:text-5xl text-center">
         {t("whyUs.h2")}
       </h2>
 
