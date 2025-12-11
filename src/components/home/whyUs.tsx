@@ -41,13 +41,13 @@ export function WhyUs() {
         {cards.map((card, idx) => (
           <article
             key={idx}
-            className="relative flex flex-col items-center lg:items-baseline bg-[#1B0A31] p-6 border border-[#BB7CE4] rounded-xl lg:rounded-[40px] h-[310px] lg:h-[431px] text-white"
+            className="relative flex flex-col justify-center items-center bg-[#1B0A31] p-6 border border-[#BB7CE4] rounded-xl lg:rounded-[40px] h-[310px] lg:h-[431px] text-white"
           >
-            <div className="flex justify-center items-center w-[250px] h-[240px]">
-              <img src={card.imgSrc} className="w-[250px] h-[240px]" />
+            <div className="flex justify-center items-center w-[250px] h-[200px] object-contain">
+              <img src={card.imgSrc} />
             </div>
 
-            <div className="lg:flex lg:flex-col lg:justify-between lg:mt-4 2xl:mt-0 lg:max-w-[664px] lg:h-full">
+            <div className="lg:flex lg:flex-col justify-center lg:mt-4 2xl:mt-0 lg:max-w-[664px] lg:h-full">
               <div className="text-center">
                 <h2 className="font-bold text-[2rem] lg:text-2xl">
                   {t(`whyUs.card${idx + 1}.h3`)}
