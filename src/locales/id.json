@@ -83,15 +83,20 @@
         "btn": "Booking Jadwal"
     },
     "footer": {
-        "address": "Mayapada Tower 2 Lantai 7 Unit 03, Jl. Jenderal Sudirman No.27, RT.4/RW.2, Kuningan, Karet, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12920",
-        "email": "support@lmr.co.id",
-        "phone": "+6221-2500731",
-        "linksTitle": "Tautan Cepat",
-        "riskTitle": "Peringatan Risiko",
-        "riskDesc": "Perdagangan berjangka adalah produk keuangan yang kompleks. Penggunaan leverage dalam aktivitas trading dapat menyebabkan kerugian modal yang signifikan dan mungkin mengharuskan Anda untuk menambah margin. Harap pahami prinsip-prinsip perdagangan berjangka  sebelum memutuskan untuk masuk ke pasar.",
-        "riskDesc2": "Harga di masa lalu dan performa produk derivatif tidak menjamin hasil di masa depan. Produk keuangan ini tidak cocok untuk semua investor. Pastikan Anda memahami seluruh potensi risiko yang ada dan pertimbangkan untuk berkonsultasi dengan penasihat keuangan independen sebelum bertransaksi.",
-        "copyright": "Copyright © 2025 Lintas Mahesa Raya, PT. All rights reserved.",
-        "copyrightMobile": "© 2025 Lintas Mahesa Raya, PT. All rights reserved."
+        "risk": {
+            "title1": "Penasihat Berjangka",
+            "content1": "Penasihat Berjangka adalah Pihak yang memberikan nasihat kepada pihak lain mengenai jual beli Komoditi berdasarkan Kontrak Berjangka, Kontrak Derivatif Syariah dan/atau Kontrak Derivatif lainnya dengan menerima imbalan. Wakil Penasihat Berjangka adalah orang perseorangan yang berdasarkan kesepakatan dengan Penasihat Berjangka melaksanakan sebagian fungsi Penasihat Berjangka. Nasihat Berbasis Teknologi Informasi berupa Expert Advisor adalah alat bantu berbasis Teknologi Informasi yang di dalamnya tersusun berdasarkan algoritma yang ditanamkan pada baris-baris programnya yang ditentukan berdasarkan karakteristik, tipe, kebutuhan, dan harapan Klien. -- Pasal 34 ayat (1) Undang-Undang Nomor 10 tahun 2011 tentang Perubahan Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi, \"Kegiatan usaha sebagai Penasihat Berjangka hanya dapat dilakukan oleh Pihak yang telah memperoleh izin usaha Penasihat Berjangka dari Bappebti\". -- Pasal 71 ayat (1) Undang-Undang Nomor 10 Tahun 2011 tentang Perubahan Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi. \"Setiap Pihak yang melakukan kegiatan Perdagangan Berjangka tanpa memiliki izin usaha sebagaimana dimaksud dalam Pasal 14 ayat (1), Pasal 25 ayat (2), Pasal 31 ayat (1), Pasal 34 ayat (1), atau Pasal 39 ayat (1), dipidana dengan pidana penjara paling singkat 5 (lima) tahun dan paling lama 10 (sepuluh) tahun, dan denda paling sedikit Rp10.000.000.000,00 (sepuluh miliar rupiah) dan paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah).\"",
+            "title2": "Pemberitahuan Resiko",
+            "content2": "Perdagangan derivatif memiliki potensi keuntungan yang sangat tinggi, namun juga disertai risiko signifikan sehingga tidak cocok untuk semua investor; PT. Pancarona Amerta Strategy bukan merupakan lembaga keuangan dan hanya menerima pembayaran untuk jasa nasihat; layanan nasihat dari Penasihat Berjangka atau Wakil Penasihat Berjangka serta konten yang terkandung pada portal/website www.pas-pt.com bersifat informasi dan rekomendasi, keputusan akhir sepenuhnya berada di tangan klien; kami tidak dapat dituntut atas kerugian yang timbul dari penggunaan informasi maupun rekomendasi yang diberikan; oleh karena itu pelajari, pahami, dan lakukan transaksi kontrak derivatif sesuai dengan profil risiko yang siap Anda tanggung."
+        },
+        "address": "Soho Podomorocity lt.16 Central Park Area Jl. S Parman-Jakarta barat Indonesia",
+        "email": "support@ottogain.com",
+        "phone": "+62811-3118-6888",
+        "phone2": "+6221-5035-1688",
+        "linksTitle": "Menu",
+        "copyright": "Copyright & design by ©OttoGain  2025, All rights reserved",
+        "copyrightMobile": "Copyright & design by ©OttoGain  2025, All rights reserved",
+        "contactUs": "Kontak Kami"
     },
     "serviceHero": {
         "title": "Layanan — PT Lintas Mahesa Raya",

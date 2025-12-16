@@ -8,55 +8,58 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="border-top p-6 pt-0 bg-black text-white text-sm relative lg:px-[6.25rem]">
-      <div className="bg-white w-full h-[1px]" />
+    <footer className="bg-[#1B0A31] text-white text-sm">
+      <div className="bg-[#BB7CE4] w-full h-[1px]" />
 
-      <img
-        src={navLogoImg.src}
-        className="h-full w-[5.2rem]  mt-[3.75rem] lg:w-[8.8rem]"
-      />
+      <section className="mx-auto px-4 pt-10 pb-16 container">
+        <h2 className="font-bold">{t("footer.risk.title1")}</h2>
+        <p className="mt-6">{t("footer.risk.content1")}</p>
 
-      <div className="lg:flex lg:gap-[4.9rem] lg:mt-[2.5rem]">
-        <div>
-          <p className="mt-[2.8rem] lg:mt-0" style={{ textWrap: "balance" }}>
-            {t("footer.address")}
-          </p>
-          <p className="mt-[2.8rem] lg:mt-[1.4rem]">{t("footer.email")}</p>
-          <p className="mt-[2.8rem] lg:mt-[1.4rem]">{t("footer.phone")}</p>
-        </div>
+        <h2 className="mt-12 font-bold">{t("footer.risk.title2")}</h2>
+        <p className="mt-6">{t("footer.risk.content2")}</p>
+      </section>
 
-        <nav className="mt-[2.5rem] lg:mt-0 lg:min-w-[100px]">
-          <h2 className="font-bold">{t("footer.linksTitle")}</h2>
+      <div className="bg-[#BB7CE4] w-full h-[1px]" />
 
-          <ul className="mt-[0.7rem] grid grid-cols-2 gap-2 lg:grid-cols-1 lg:gap-3">
-            {navListMenuItems.map(({ title, href }) => (
-              <a href={href} key={title} className="cursor-default">
-                <div className="inline cursor-pointer hover:underline">
-                  {t(title)}
-                </div>
-              </a>
-            ))}
-          </ul>
-        </nav>
+      <section className="relative mx-auto px-4 pt-0 pb-6 text-white text-sm container">
+        <div className="lg:flex lg:justify-between lg:gap-[4.9rem] lg:mt-[2.5rem]">
+          <img
+            src={navLogoImg.src}
+            className="pt-8 lg:pt-0 w-[5.2rem] lg:w-[8.8rem] h-full"
+          />
 
-        <div className="mt-[2.5rem] lg:mt-0">
-          <h2 className="font-bold">{t("footer.riskTitle")}</h2>
+          <nav className="mt-[2.5rem] lg:mt-0 lg:min-w-[100px]">
+            <h2 className="font-bold">{t("footer.linksTitle")}</h2>
 
-          <div className="font-extralight">
-            <p className="mt-[0.7rem]">{t("footer.riskDesc")}</p>
-            <p className="mt-[0.7rem]">{t("footer.riskDesc2")}</p>
+            <ul className="gap-2 lg:gap-3 grid grid-cols-2 lg:grid-cols-1 mt-[0.7rem]">
+              {navListMenuItems.map(({ title, href }) => (
+                <a href={href} key={title} className="cursor-default">
+                  <div className="inline hover:underline cursor-pointer">
+                    {t(title)}
+                  </div>
+                </a>
+              ))}
+            </ul>
+          </nav>
+
+          <div className="mt-12 lg:mt-0">
+            <h2 className="font-bold">{t("footer.contactUs")}</h2>
+
+            <div className="gap-2 lg:gap-3 grid grid-cols-1 mt-[0.7rem]">
+              <p className="max-w-[280px]">{t("footer.address")}</p>
+              <p>{t("footer.email")}</p>
+              <p>{t("footer.phone")}</p>
+              <p>{t("footer.phone2")}</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="mt-[2.8rem]">
-        <div className="bg-white w-full h-[2px]" />
-
-        <p className="mt-4 lg:hidden">{t("footer.copyrightMobile")}</p>
-        <p className="mt-4 hidden lg:block lg:text-center lg:mt-5">
-          {t("footer.copyright")}
-        </p>
-      </div>
+        <div className="mt-[2.8rem]">
+          <p className="lg:block mt-4 lg:mt-5 text-center lg:text-right">
+            {t("footer.copyright")}
+          </p>
+        </div>
+      </section>
     </footer>
   );
 }
