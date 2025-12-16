@@ -1,50 +1,43 @@
-import { Typography } from "@material-tailwind/react";
-import ThemeProvider from "../theme-provider";
-import Navbar from "../navbar";
-import offerImg from "../../assets/services/offer.webp";
-import offerImgPc from "../../assets/services/offer-pc.webp";
-
 import { useTranslation } from "react-i18next";
+
+import Navbar from "../navbar";
+
+import excellencesMainImg from "../../assets/home/excellences-main.webp";
+import hero from "../../assets/about-us/hero.webp";
+
 import "../../i18n";
-import { useEffect } from "react";
+import ThemeProvider from "../theme-provider";
 
-export function Hero() {
-  const { t, i18n } = useTranslation();
-
-  useEffect(() => {
-    document.title = t("aboutHero.title");
-  }, [i18n.language]);
+export default function AboutUsHero() {
+  const { t } = useTranslation();
 
   return (
     <ThemeProvider>
       <Navbar />
 
-      <header className="min-h-[20rem] w-screen flex items-center bg-white relative bg-hero-about-us">
-        <div className="container mx-auto grid items-center max-w-[1024px]">
-          <div className="text-center">
-            <Typography
-              variant="h1"
-              className="leading-tight text-white text-[2.5rem] lg:text-[3.5rem]"
-            >
-              {t("aboutHero.h1")}
-            </Typography>
+      <header className="flex flex-col justify-center items-center bg-hero bg-cover bg-center">
+        <section className="flex flex-col items-start px-6 lg:px-[100px] py-12 lg:py-24 text-white">
+          <div className="gap-5 grid lg:grid-cols-2">
+            <div className="flex flex-col gap-5 mt-12 pl-4 lg:pl-0 max-w-[450px]">
+              <div>
+                <div className="flex justify-center lg:justify-start items-center w-full">
+                  <div className="bg-[#281343] px-5 py-3 rounded-3xl font-semibold text-white text-sm">
+                    About Us
+                  </div>
+                </div>
 
-            <div className="flex justify-center mt-3 lg:mt-4">
-              <div className="flex justify-center text-white font-normal text-xs items-center border rounded-full border-amber-700 px-2 py-0.5 lg:py-1.5">
-                <a href="/" className="hover:underline">
-                  {t("nav.home")}
-                </a>
-
-                <span className="text-sm mx-2">{">"}</span>
-
-                <span>{t("nav.aboutUs")}</span>
+                <h2 className="mt-3 max-w-[470px] font-semibold text-[2.5rem] text-white lg:text-5xl lg:text-left text-center">
+                  {t("aboutUsHero.h1")}
+                </h2>
               </div>
+
+              <p className="text-white">{t("aboutUsHero.p")}</p>
             </div>
+
+            <img src={hero.src} className="max-h-[650px]" />
           </div>
-        </div>
+        </section>
       </header>
     </ThemeProvider>
   );
 }
-
-export default Hero;

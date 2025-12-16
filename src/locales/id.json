@@ -98,6 +98,10 @@
         "copyrightMobile": "Copyright & design by ©OttoGain  2025, All rights reserved",
         "contactUs": "Kontak Kami"
     },
+    "aboutUsHero": {
+        "h1": "Tentang Kami",
+        "p": "OTTOGAIN adalah aplikasi berbasis cloud yang menyediakan layanan multi koneksi antara user, provider dan broker dengan jaringan yang aman."
+    },
     "serviceHero": {
         "title": "Layanan — PT Lintas Mahesa Raya",
         "h1": "Layanan",

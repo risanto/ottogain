@@ -1,4 +1,3 @@
-import { Button } from "@material-tailwind/react";
 import { useTranslation } from "react-i18next";
 
 import card1Img from "../../assets/home/why-card1.svg";
