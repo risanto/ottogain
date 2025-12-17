@@ -23,12 +23,11 @@ export function Hero() {
             />
 
             <div className="items-center grid mx-auto">
-              <Typography
-                variant="h5"
-                className="text-white text-center leading-tight"
-              >
-                OTTOGAIN
-              </Typography>
+              <div className="flex justify-center items-center w-full">
+                <div className="bg-[#281343] px-5 py-3 rounded-3xl font-semibold text-white text-sm">
+                  OTTOGAIN
+                </div>
+              </div>
 
               <Typography
                 variant="h1"
