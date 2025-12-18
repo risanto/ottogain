@@ -106,9 +106,47 @@
         "h2": "Sejarah OTTOGAIN by ArTrade Smart Solution"
     },
     "serviceHero": {
-        "title": "Layanan — PT Lintas Mahesa Raya",
-        "h1": "Layanan",
-        "p": "Kami menawarkan rangkaian layanan komprehensif untuk broker dan institusi finansial di Indonesia. Dari akses likuiditas hingga platform teknologi canggih, kami adalah mitra Anda untuk sukses di pasar yang kompetitif."
+        "h1": "Layanan Kami"
+    },
+    "serviceContent": {
+        "item1": {
+            "h2": "Signal Provider",
+            "p": "Trading menjadi lebih efisien dengan signal provider yang sudah melewati uji kelayakan minimal 5 tahun di website/aplikasi, mencakup:",
+            "ul": {
+                "1": "Kesesuaian algoritma",
+                "2": "Strategi trading yang teruji",
+                "3": "Kinerja signal provider",
+                "4": "Komitmen pengembang untuk pembaruan minimal 5 tahun dengan update berkala setiap 3 bulan",
+                "5": "Layanan purna jual"
+            }
+        },
+        "item2": {
+            "h2": "Edukasi Trading",
+            "p": "Program edukasi trading terstruktur yang dirancang agar Anda langsung praktek, bukan hanya teori. Fokus pada pembentukan SOP trading pribadi, mindset, dan risk management yang sehat.",
+            "ul1": {
+                "header": "Cocok untuk:",
+                "1": "Yang baru mulai belajar trading",
+                "2": "Yang sudah memulai tapi belum konsisten",
+                "3": "Yang ingin mendapatkan pendampingan dan nasihat yang lebih detail"
+            },
+            "ul2": {
+                "header": "Yang Anda Dapatkan:",
+                "1": "Modul belajar bertahap (online/offline)",
+                "2": "Sesi live class & tanya jawab",
+                "3": "Template trading plan &  trading journal",
+                "4": "Akses ke komunitas trading"
+            }
+        },
+        "item3": {
+            "p": "Modul yang dipelajari:",
+            "ul": {
+                "1": "Mindset & Psikologi Trading",
+                "2": "Money Management",
+                "3": "Trading Plan dengan Simple Indicator & Cluster",
+                "4": "Analisa Fundamental",
+                "5": "Analisa Teknikal"
+            }
+        }
     },
     "serviceWhy": {
         "h2": "Keunggulan Layanan Kami",

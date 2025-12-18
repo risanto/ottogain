@@ -2,19 +2,14 @@
 import "../../assets/css/input.css";
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/services/hero";
-import WhyUs from "../components/services/whyUs";
-import CTA from "../components/services/cta";
+import Content from "../components/services/content";
 import Footer from "../components/footer";
 ---
 
-<Layout title="">
+<Layout title="OTTOGAIN">
   <main>
-    <div class="relative min-h-[100dvh]">
-      <Hero client:only="react" />
-    </div>
-
-    <WhyUs client:only="react" />
-    <CTA client:only="react" />
+    <Hero client:only="react" />
+    <Content client:only="react" />
     <Footer client:only="react" />
   </main>
 </Layout>
