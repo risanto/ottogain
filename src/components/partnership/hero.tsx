@@ -13,7 +13,7 @@ export default function PartnershipHero() {
     <ThemeProvider>
       <Navbar />
 
-      <header className="flex flex-col justify-center items-center bg-hero bg-cover bg-center">
+      <header className="flex flex-col justify-center items-center bg-hero bg-cover bg-center min-h-[600px]">
         <section className="flex flex-col justify-between items-center gap-4 mx-auto py-24 text-white container">
           <div className="flex justify-center items-center w-full">
             <div className="bg-[#281343] px-5 py-3 rounded-3xl font-semibold text-white text-sm">

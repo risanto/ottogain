@@ -13,7 +13,7 @@ export default function AboutUsHero() {
     <ThemeProvider>
       <Navbar />
 
-      <header className="flex flex-col justify-center items-center bg-hero bg-cover bg-center">
+      <header className="flex flex-col justify-center items-center bg-hero bg-cover bg-center min-h-[600px]">
         <section className="flex flex-col items-start mx-auto px-6 lg:px-[100px] py-12 lg:py-24 text-white container">
           <div className="gap-5 grid lg:grid-cols-2">
             <div className="flex flex-col gap-5 mt-12 pl-4 lg:pl-0 max-w-[450px]">
