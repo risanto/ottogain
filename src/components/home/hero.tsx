@@ -14,7 +14,7 @@ export function Hero() {
     <ThemeProvider>
       <Navbar />
 
-      <header className="bg-hero w-screen h-full">
+      <header className="bg-hero w-screen h-full min-h-[600px]">
         <div className="relative flex flex-col place-items-center mx-auto px-8 lg:px-12 pt-8 lg:pt-12 pb-0 container">
           <div className="flex place-items-center">
             <img
