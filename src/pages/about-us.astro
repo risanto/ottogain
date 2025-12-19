@@ -8,7 +8,10 @@ import Footer from "../components/footer";
 
 <Layout title="OTTOGAIN">
   <main>
-    <Hero client:only="react" />
+    <div class="relative min-h-[600px]">
+      <Hero client:only="react" />
+    </div>
+
     <Timeline client:only="react" />
     <Footer client:only="react" />
   </main>
