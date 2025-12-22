@@ -218,6 +218,42 @@
             "p": "Bergabung sepenuhnya GRATIS tanpa biaya pendaftaran"
         }
     },
+    "partnershipSteps": {
+        "item1": {
+            "h3": "3 Langkah Mudah Menjadi Partner Ottogain",
+            "li1": {
+                "h4": "Daftar & Konsultasi",
+                "p": "Isi formulir pendaftaran singkat → Tim partnership kami akan menghubungi Anda dalam 24 jam untuk memahami kebutuhan spesifik Anda → Diskusikan model kerjasama yang paling sesuai"
+            },
+            "li2": {
+                "h4": "Integrasi & Setup",
+                "p": "Dapatkan akses ke dashboard partner khusus → Pilih materi promosi yang sesuai (banner, landing page, presentasi) → Tentukan bagaimana Anda ingin menyajikan layanan kami ke audience Anda"
+            },
+            "li3": {
+                "h4": "Launch & Growth",
+                "p": "Luncurkan layanan ke komunitas/klien Anda → Pantau performa melalui dashboard real-time → Optimalkan strategi berdasarkan data bersama tim kami"
+            }
+        },
+        "item2": {
+            "h3": "Model Kemitraan yang Fleksibel",
+            "li1": {
+                "h4": "Partnership Edukasi",
+                "p": "Ideal untuk edukator yang ingin melengkapi kursus trading dengan tools praktis"
+            },
+            "li2": {
+                "h4": "Komunitas & Group Trading",
+                "p": "Khusus admin komunitas yang ingin memberikan benefit eksklusif kepada anggota"
+            },
+            "li3": {
+                "h4": "Whitelabel Solution",
+                "p": "Untuk partner yang ingin menawarkan layanan dengan branding mereka sendiri"
+            },
+            "li4": {
+                "h4": "Referral Professional",
+                "p": "Sempurna bagi individu yang ingin mendapatkan income tambahan dari jaringan profesionalnya"
+            }
+        }
+    },
     "aboutHero": {
         "title": "Tentang Kami — PT Lintas Mahesa Raya",
         "h1": "Tentang Kami"

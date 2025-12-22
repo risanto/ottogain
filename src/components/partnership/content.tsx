@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next";
 
 import content1Img from "../../assets/partnership/content-1.webp";
 import content2Img from "../../assets/partnership/content-2.webp";
+import steps1Img from "../../assets/partnership/steps-1.webp";
+import steps2Img from "../../assets/partnership/steps-2.webp";
 
 import bgPartnershipsContent from "../../assets/partnership/bg-services-content.svg";
 import card1Img from "../../assets/home/why-card1.svg";
@@ -29,6 +31,7 @@ export default function PartnershipContent() {
       className="flex flex-col justify-center items-center bg-cover bg-center"
       style={{ backgroundImage: `url(${bgPartnershipsContent.src})` }}
     >
+      {/* Content */}
       <section className="flex flex-col items-center gap-32 px-6 lg:px-[100px] py-12 lg:py-24 text-white leading-relaxed">
         <h1 className="font-black text-[2.5rem] text-white lg:text-[3.5rem] text-center">
           {t("partnershipContent.h1")}
@@ -119,7 +122,8 @@ export default function PartnershipContent() {
         </div>
       </section>
 
-      <section className="bg-[#1B0A31] px-6 lg:px-[100px] py-12">
+      {/* How */}
+      <section className="px-6 lg:px-[100px] py-12">
         <div className="flex flex-col justify-center items-center mx-auto container">
           <h1 className="font-black text-[2.5rem] text-white lg:text-[3.5rem] text-center">
             {t("partnershipHow.h1")}
@@ -155,6 +159,142 @@ export default function PartnershipContent() {
               </article>
             ))}
           </section>
+        </div>
+      </section>
+
+      {/* Steps */}
+      <section className="flex flex-col items-center gap-32 px-6 lg:px-[100px] py-12 lg:py-24 text-white leading-relaxed">
+        <div className="gap-9 grid lg:grid-cols-2">
+          <div className="flex justify-center">
+            <div className="flex flex-col justify-center gap-10 pl-4 lg:pl-0 max-w-[625px]">
+              <h2 className="font-semibold text-[2.5rem] text-white lg:text-5xl lg:text-left text-center">
+                {t("partnershipSteps.item1.h3")}
+              </h2>
+
+              <ol className="space-y-6 max-w-[500px] marker:text-[#BB7CE4] list-decimal list-inside">
+                <li className="flex gap-4">
+                  <span className="font-semibold text-[#BB7CE4] text-2xl">
+                    1.
+                  </span>
+
+                  <div className="space-y-2">
+                    <h4 className="font-semibold text-2xl">
+                      {t("partnershipSteps.item1.li1.h4")}
+                    </h4>
+                    <p className="font-normal text-base">
+                      {t("partnershipSteps.item1.li1.p")}
+                    </p>
+                  </div>
+                </li>
+
+                <li className="flex gap-4">
+                  <span className="font-semibold text-[#BB7CE4] text-2xl">
+                    2.
+                  </span>
+
+                  <div className="space-y-2">
+                    <h4 className="font-semibold text-2xl">
+                      {t("partnershipSteps.item1.li2.h4")}
+                    </h4>
+                    <p className="font-normal text-base">
+                      {t("partnershipSteps.item1.li2.p")}
+                    </p>
+                  </div>
+                </li>
+
+                <li className="flex gap-4">
+                  <span className="font-semibold text-[#BB7CE4] text-2xl">
+                    3.
+                  </span>
+
+                  <div className="space-y-2">
+                    <h4 className="font-semibold text-2xl">
+                      {t("partnershipSteps.item1.li3.h4")}
+                    </h4>
+                    <p className="font-normal text-base">
+                      {t("partnershipSteps.item1.li3.p")}
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <img src={steps1Img.src} />
+        </div>
+
+        <div className="gap-7 lg:gap-28 grid lg:grid-cols-2">
+          <img src={steps2Img.src} />
+
+          <div className="flex justify-center">
+            <div className="flex flex-col justify-center gap-10 pl-4 lg:pl-0 max-w-[450px]">
+              <h2 className="font-semibold text-[2.5rem] text-white lg:text-5xl lg:text-left text-center">
+                {t("partnershipSteps.item2.h3")}
+              </h2>
+
+              <ol className="space-y-6 max-w-[500px] marker:text-[#BB7CE4] list-decimal list-inside">
+                <li className="flex gap-4">
+                  <span className="font-semibold text-[#BB7CE4] text-2xl">
+                    1.
+                  </span>
+
+                  <div className="space-y-2">
+                    <h4 className="font-semibold text-2xl">
+                      {t("partnershipSteps.item2.li1.h4")}
+                    </h4>
+                    <p className="font-normal text-base">
+                      {t("partnershipSteps.item2.li1.p")}
+                    </p>
+                  </div>
+                </li>
+
+                <li className="flex gap-4">
+                  <span className="font-semibold text-[#BB7CE4] text-2xl">
+                    2.
+                  </span>
+
+                  <div className="space-y-2">
+                    <h4 className="font-semibold text-2xl">
+                      {t("partnershipSteps.item2.li2.h4")}
+                    </h4>
+                    <p className="font-normal text-base">
+                      {t("partnershipSteps.item2.li2.p")}
+                    </p>
+                  </div>
+                </li>
+
+                <li className="flex gap-4">
+                  <span className="font-semibold text-[#BB7CE4] text-2xl">
+                    3.
+                  </span>
+
+                  <div className="space-y-2">
+                    <h4 className="font-semibold text-2xl">
+                      {t("partnershipSteps.item2.li3.h4")}
+                    </h4>
+                    <p className="font-normal text-base">
+                      {t("partnershipSteps.item2.li3.p")}
+                    </p>
+                  </div>
+                </li>
+
+                <li className="flex gap-4">
+                  <span className="font-semibold text-[#BB7CE4] text-2xl">
+                    4.
+                  </span>
+
+                  <div className="space-y-2">
+                    <h4 className="font-semibold text-2xl">
+                      {t("partnershipSteps.item2.li4.h4")}
+                    </h4>
+                    <p className="font-normal text-base">
+                      {t("partnershipSteps.item2.li4.p")}
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
         </div>
       </section>
     </div>
