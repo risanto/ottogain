@@ -13,7 +13,7 @@ import { useState } from "react";
 export function Form() {
   const { t } = useTranslation();
 
-  function NeedSelect() {
+  function PurposeSelect() {
     const [value, setValue] = useState<string | undefined>("");
 
     return (
@@ -29,31 +29,31 @@ export function Form() {
         }}
       >
         <Option value="" className="p-2">
-          <div className="px-4">{t("contactForm.purpose")}</div>
+          <div className="lg:px-4">{t("contactForm.purpose")}</div>
         </Option>
 
         <Option value="registrasi" className="p-2">
-          <div className="px-4">{t("contactForm.registration")}</div>
+          <div className="lg:px-4">{t("contactForm.registration")}</div>
         </Option>
 
         <Option value="signal-provider" className="p-2">
-          <div className="px-4">Signal Provider</div>
+          <div className="lg:px-4">Signal Provider</div>
         </Option>
 
         <Option value="deposit" className="p-2">
-          <div className="px-4">Deposit</div>
+          <div className="lg:px-4">Deposit</div>
         </Option>
 
         <Option value="withdrawal" className="p-2">
-          <div className="px-4">Withdrawal</div>
+          <div className="lg:px-4">Withdrawal</div>
         </Option>
 
         <Option value="legal" className="p-2">
-          <div className="px-4">Legal</div>
+          <div className="lg:px-4">Legal</div>
         </Option>
 
         <Option value="lainnya" className="p-2">
-          <div className="px-4">{t("contactForm.others")}</div>
+          <div className="lg:px-4">{t("contactForm.others")}</div>
         </Option>
       </Select>
     );
@@ -92,7 +92,7 @@ export function Form() {
               }}
             />
 
-            <NeedSelect />
+            <PurposeSelect />
           </form>
 
           <div className="flex justify-center items-center w-full">
