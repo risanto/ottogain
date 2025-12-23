@@ -62,7 +62,7 @@ export function Form() {
   return (
     <>
       <section
-        className="gap-2.5 lg:gap-28 grid lg:grid-cols-2 bg-cover bg-center px-6 lg:px-[6.25rem] py-12 lg:pt-[6.25rem] lg:pb-20"
+        className="flex flex-col gap-2.5 lg:gap-28 lg:grid lg:grid-cols-2 bg-cover bg-center px-6 lg:px-[6.25rem] py-12 lg:pt-[6.25rem] lg:pb-20"
         style={{ backgroundImage: `url(${bgContactForm.src})` }}
       >
         <article className="relative flex flex-col justify-center items-center lg:items-baseline bg-[#1B0A31] p-[2rem] lg:px-11 lg:pt-8 pb-[1.3rem] lg:pb-16 border border-[#BB7CE4]/30 rounded-[20px] lg:rounded-[40px]">
@@ -102,20 +102,22 @@ export function Form() {
           </div>
         </article>
 
-        <article className="relative gap-7 grid rounded-[20px] lg:rounded-[40px] text-white">
-          <h2 className="font-semibold text-5xl">{t("contactUsForm.h2")}</h2>
+        <article className="relative flex flex-col justify-center items-center gap-7 lg:grid rounded-[20px] lg:rounded-[40px] text-white">
+          <h2 className="pt-8 lg:pt-0 font-semibold text-3xl lg:text-5xl lg:text-left text-center">
+            {t("contactUsForm.h2")}
+          </h2>
 
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9434.393062338417!2d106.78414750734926!3d-6.174427664205013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f74ca2c1fefb%3A0x66eb07e0fb3775c1!2sSOHO%20Podomoro%20City!5e0!3m2!1sen!2sid!4v1766391310189!5m2!1sen!2sid"
-            width="520"
+            width="94%"
             height="259"
             loading="lazy"
             className="rounded-3xl"
           ></iframe>
 
-          <div className="font-semibold text-3xl">HQ Office</div>
+          <div className="font-semibold text-2xl lg:text-3xl">HQ Office</div>
 
-          <div className="flex flex-col gap-5 w-[350px]">
+          <div className="flex flex-col gap-5 max-w-[350px] text-sm lg:text-base">
             <div className="flex gap-5">
               <img
                 src={mapMarkerIcon.src}
