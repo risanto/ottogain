@@ -32,8 +32,8 @@ export default function PartnershipContent() {
       style={{ backgroundImage: `url(${bgPartnershipsContent.src})` }}
     >
       {/* Content */}
-      <section className="flex flex-col items-center gap-32 px-6 lg:px-[100px] py-12 lg:py-24 text-white leading-relaxed">
-        <h1 className="font-black text-[2.5rem] text-white lg:text-[3.5rem] text-center">
+      <section className="flex flex-col items-center gap-16 lg:gap-32 px-6 lg:px-[100px] py-12 lg:py-24 text-white leading-relaxed">
+        <h1 className="font-black text-white lg:text-[3.5rem] text-3xl text-center">
           {t("partnershipContent.h1")}
         </h1>
 
@@ -42,11 +42,11 @@ export default function PartnershipContent() {
 
           <div className="flex justify-center">
             <div className="flex flex-col justify-center gap-10 pl-4 lg:pl-0 max-w-[450px]">
-              <h2 className="font-semibold text-[2.5rem] text-white lg:text-5xl lg:text-left text-center">
+              <h2 className="font-semibold text-white text-2xl lg:text-5xl lg:text-left text-center">
                 {t("partnershipContent.item1.h2")}
               </h2>
 
-              <ul className="pl-5 list-disc">
+              <ul className="space-y-2 lg:space-y-4 pl-2 lg:pl-5 text-xs lg:text-base list-disc">
                 <li>
                   <span className="mr-1 font-bold">
                     {t("partnershipContent.item1.ul.1.bold")}
@@ -80,13 +80,13 @@ export default function PartnershipContent() {
         </div>
 
         <div className="gap-7 lg:gap-28 grid lg:grid-cols-2">
-          <div className="flex justify-center">
+          <div className="flex justify-center order-2 lg:order-1">
             <div className="flex flex-col justify-center gap-10 pl-4 lg:pl-0 max-w-[490px]">
-              <h2 className="font-semibold text-[2.5rem] text-white lg:text-5xl lg:text-left text-center">
+              <h2 className="font-semibold text-white text-2xl lg:text-5xl lg:text-left text-center">
                 {t("partnershipContent.item2.h2")}
               </h2>
 
-              <ul className="pl-5 list-disc">
+              <ul className="space-y-2 lg:space-y-4 pl-2 lg:pl-5 text-xs lg:text-base list-disc">
                 <li>
                   <span className="mr-1 font-bold">
                     {t("partnershipContent.item1.ul.1.bold")}
@@ -118,14 +118,14 @@ export default function PartnershipContent() {
             </div>
           </div>
 
-          <img src={content2Img.src} />
+          <img src={content2Img.src} className="order-1 lg:order-2" />
         </div>
       </section>
 
       {/* How */}
       <section className="px-6 lg:px-[100px] py-12">
         <div className="flex flex-col justify-center items-center mx-auto container">
-          <h1 className="font-black text-[2.5rem] text-white lg:text-[3.5rem] text-center">
+          <h1 className="font-black text-white lg:text-[3.5rem] text-3xl text-center">
             {t("partnershipHow.h1")}
           </h1>
 
@@ -142,14 +142,14 @@ export default function PartnershipContent() {
                   />
                 </div>
 
-                <div className="lg:flex lg:flex-col justify-center lg:mt-4 2xl:mt-0 px-6 pb-6 lg:max-w-[664px] lg:h-full">
+                <div className="lg:flex lg:flex-col justify-center lg:mt-4 2xl:mt-0 px-6 pb-0 lg:pb-6 lg:max-w-[664px] lg:h-full">
                   <div className="text-center">
-                    <h2 className="font-bold text-[2rem] lg:text-2xl">
+                    <h2 className="font-bold text-xl lg:text-2xl">
                       {t(`partnershipHow.card${idx + 1}.h3`)}
                     </h2>
 
                     <p
-                      className="mt-[0.9rem] text-[0.9rem] lg:text-base text-left"
+                      className="mt-[0.9rem] text-xs lg:text-base lg:text-left text-center"
                       style={{ textWrap: "balance" }}
                     >
                       {t(`partnershipHow.card${idx + 1}.p`)}
@@ -165,62 +165,34 @@ export default function PartnershipContent() {
       {/* Steps */}
       <section className="flex flex-col items-center gap-32 px-6 lg:px-[100px] py-12 lg:py-24 text-white leading-relaxed">
         <div className="gap-9 grid lg:grid-cols-2">
-          <div className="flex justify-center">
+          <div className="flex justify-center order-2 lg:order-1">
             <div className="flex flex-col justify-center gap-10 pl-4 lg:pl-0 max-w-[625px]">
-              <h2 className="font-semibold text-[2.5rem] text-white lg:text-5xl lg:text-left text-center">
+              <h2 className="font-semibold text-white text-3xl lg:text-5xl lg:text-left text-center">
                 {t("partnershipSteps.item1.h3")}
               </h2>
 
               <ol className="space-y-6 max-w-[500px] marker:text-[#BB7CE4] list-decimal list-inside">
-                <li className="flex gap-4">
-                  <span className="font-semibold text-[#BB7CE4] text-2xl">
-                    1.
-                  </span>
+                {[1, 2, 3].map((i) => (
+                  <li key={i} className="flex gap-4">
+                    <span className="font-semibold text-[#BB7CE4] text-xl lg:text-2xl">
+                      {i}.
+                    </span>
 
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-2xl">
-                      {t("partnershipSteps.item1.li1.h4")}
-                    </h4>
-                    <p className="font-normal text-base">
-                      {t("partnershipSteps.item1.li1.p")}
-                    </p>
-                  </div>
-                </li>
-
-                <li className="flex gap-4">
-                  <span className="font-semibold text-[#BB7CE4] text-2xl">
-                    2.
-                  </span>
-
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-2xl">
-                      {t("partnershipSteps.item1.li2.h4")}
-                    </h4>
-                    <p className="font-normal text-base">
-                      {t("partnershipSteps.item1.li2.p")}
-                    </p>
-                  </div>
-                </li>
-
-                <li className="flex gap-4">
-                  <span className="font-semibold text-[#BB7CE4] text-2xl">
-                    3.
-                  </span>
-
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-2xl">
-                      {t("partnershipSteps.item1.li3.h4")}
-                    </h4>
-                    <p className="font-normal text-base">
-                      {t("partnershipSteps.item1.li3.p")}
-                    </p>
-                  </div>
-                </li>
+                    <div className="space-y-2">
+                      <h4 className="font-semibold text-xl lg:text-2xl">
+                        {t(`partnershipSteps.item1.li${i}.h4`)}
+                      </h4>
+                      <p className="font-normal text-xs lg:text-base">
+                        {t(`partnershipSteps.item1.li${i}.p`)}
+                      </p>
+                    </div>
+                  </li>
+                ))}
               </ol>
             </div>
           </div>
 
-          <img src={steps1Img.src} />
+          <img src={steps1Img.src} className="order-1 lg:order-2" />
         </div>
 
         <div className="gap-7 lg:gap-28 grid lg:grid-cols-2">
@@ -228,70 +200,27 @@ export default function PartnershipContent() {
 
           <div className="flex justify-center">
             <div className="flex flex-col justify-center gap-10 pl-4 lg:pl-0 max-w-[450px]">
-              <h2 className="font-semibold text-[2.5rem] text-white lg:text-5xl lg:text-left text-center">
+              <h2 className="font-semibold text-white text-3xl lg:text-5xl lg:text-left text-center">
                 {t("partnershipSteps.item2.h3")}
               </h2>
 
               <ol className="space-y-6 max-w-[500px] marker:text-[#BB7CE4] list-decimal list-inside">
-                <li className="flex gap-4">
-                  <span className="font-semibold text-[#BB7CE4] text-2xl">
-                    1.
-                  </span>
+                {[1, 2, 3].map((i) => (
+                  <li key={i} className="flex gap-4">
+                    <span className="font-semibold text-[#BB7CE4] text-xl lg:text-2xl">
+                      {i}.
+                    </span>
 
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-2xl">
-                      {t("partnershipSteps.item2.li1.h4")}
-                    </h4>
-                    <p className="font-normal text-base">
-                      {t("partnershipSteps.item2.li1.p")}
-                    </p>
-                  </div>
-                </li>
-
-                <li className="flex gap-4">
-                  <span className="font-semibold text-[#BB7CE4] text-2xl">
-                    2.
-                  </span>
-
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-2xl">
-                      {t("partnershipSteps.item2.li2.h4")}
-                    </h4>
-                    <p className="font-normal text-base">
-                      {t("partnershipSteps.item2.li2.p")}
-                    </p>
-                  </div>
-                </li>
-
-                <li className="flex gap-4">
-                  <span className="font-semibold text-[#BB7CE4] text-2xl">
-                    3.
-                  </span>
-
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-2xl">
-                      {t("partnershipSteps.item2.li3.h4")}
-                    </h4>
-                    <p className="font-normal text-base">
-                      {t("partnershipSteps.item2.li3.p")}
-                    </p>
-                  </div>
-                </li>
-
-                <li className="flex gap-4">
-                  <span className="font-semibold text-[#BB7CE4] text-2xl">
-                    4.
-                  </span>
-
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-2xl">
-                      {t("partnershipSteps.item2.li4.h4")}
-                    </h4>
-                    <p className="font-normal text-base">
-                      {t("partnershipSteps.item2.li4.p")}
-                    </p>
-                  </div>
-                </li>
+                    <div className="space-y-2">
+                      <h4 className="font-semibold text-xl lg:text-2xl">
+                        {t(`partnershipSteps.item2.li${i}.h4`)}
+                      </h4>
+                      <p className="font-normal text-xs lg:text-base">
+                        {t(`partnershipSteps.item2.li${i}.p`)}
+                      </p>
+                    </div>
+                  </li>
+                ))}
               </ol>
             </div>
           </div>

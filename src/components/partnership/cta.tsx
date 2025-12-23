@@ -22,14 +22,14 @@ export default function Cta() {
           {t("partnershipCta.h2")}
         </h2>
 
-        <p className="mt-10 max-w-[600px] text-xl text-center">
+        <p className="mt-10 max-w-[600px] text-sm lg:text-xl text-center">
           {t("partnershipCta.p1")}
         </p>
-        <p className="mt-10 max-w-[600px] text-xl text-center">
+        <p className="mt-10 max-w-[600px] text-sm lg:text-xl text-center">
           {t("partnershipCta.p2")}
         </p>
 
-        <div className="flex gap-5 mt-5 max-w-[600px] text-xl text-center">
+        <div className="flex gap-5 mt-5 max-w-[600px] text-sm lg:text-xl text-center">
           <img src={envelopeIcon.src} /> partnership@ottogain.com
         </div>
       </div>
