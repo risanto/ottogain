@@ -259,22 +259,12 @@
         "p1": "Bergabunglah dengan jaringan partner Ottogain yang sudah tersebar di lebih dari 13 provinsi di seluruh Indonesia",
         "p2": "Hubungi tim partnership kami langsung:"
     },
-    "aboutHero": {
-        "title": "Tentang Kami — PT Lintas Mahesa Raya",
-        "h1": "Tentang Kami"
+    "contactUsHero": {
+        "h1": "Konsultasikan Kebutuhan Anda",
+        "p": "Isi formulir di bawah ini dan diskusikan bersama tim profesional kami bagaimana OTTOGAIN bisa membantu Anda."
     },
-    "aboutProfile": {
-        "h2": "PT Lintas Mahesa Raya",
-        "p": "PT. Lintas Mahesa Raya adalah penyedia solusi likuiditas dan teknologi terdepan di Indonesia yang berfokus pada kebutuhan broker dan trader. Sebagai Pedagang Berjangka bersertifikasi BAPPEBTI, kami beroperasi secara legal dan diawasi langsung oleh otoritas resmi.",
-        "p2": "Dengan pengalaman luas dan komitmen terhadap inovasi, kami membantu klien mencapai efisiensi dan pertumbuhan berkelanjutan di tengah dinamika pasar finansial.",
-        "card1": {
-            "h3": "Visi",
-            "p": "Menjadi mitra strategis terdepan dalam transformasi pasar finansial Indonesia melalui teknologi inovatif dan solusi likuiditas yang andal, guna menciptakan ekosistem keuangan yang efisien, transparan, dan berkelanjutan."
-        },
-        "card2": {
-            "h3": "Misi",
-            "p": "Memberdayakan pasar finansial Indonesia lewat solusi likuiditas dan teknologi yang cerdas, aman, dan adaptif untuk mendukung broker dan bursa tumbuh lebih cepat, efisien, dan kompetitif di era digital."
-        }
+    "contactUsForm": {
+        "h2": "Kontak Kami"
     },
     "contactHero": {
         "title": "Kontak Kami — PT Lintas Mahesa Raya",
@@ -285,7 +275,11 @@
         "h2": "Formulir Kontak",
         "name": "Nama",
         "email": "Email",
-        "company": "Nama Perusahaan",
+        "whatsapp": "Nomor WhatsApp",
+        "purpose": "Pilih Kebutuhan",
+        "registration": "Registrasi",
+        "others": "Lainnya",
+        "send": "Kirim",
         "message": "Pesan",
         "btn": "Kirim Pesan",
         "tower": "Mayapada Tower 2",
