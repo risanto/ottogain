@@ -7,12 +7,13 @@ import {
   IconButton,
   Tabs,
   TabsHeader,
+  Button,
 } from "@material-tailwind/react";
 
 import { useLocation } from "react-router-dom";
 
 import navBurgerImg from "../assets/nav-burger.svg";
-import navLogoImg from "../assets/nav-logo-color.svg";
+import navLogoImg from "../assets/nav-logo-2.svg";
 import LanguageSwitcher from "./languageSwitcher";
 
 import { useTranslation } from "react-i18next";
@@ -103,6 +104,7 @@ function NavTabs() {
 
 export default function ComplexNavbar() {
   const [isNavOpen, setIsNavOpen] = React.useState(false);
+  const { t } = useTranslation();
 
   const toggleIsNavOpen = () => setIsNavOpen((cur) => !cur);
 
@@ -115,19 +117,28 @@ export default function ComplexNavbar() {
 
   return (
     <Navbar
-      className={`sticky inset-0 z-10 p-1 border-0 backdrop-saturate-0 backdrop-blur-0 bg-opacity-100 transition-shadow rounded-none bg-[#26153B] w-full max-w-full lg:border-0 lg:p-4 lg:pl-24 lg:pr-24 ${
+      className={`sticky inset-0 z-10 p-1 border-0 backdrop-saturate-0 backdrop-blur-0 bg-opacity-100 transition-shadow rounded-none bg-[#26153B] w-full max-w-full lg:border-0 lg:p-4 xl:pl-24 xl:pr-24 lg:pl-12 lg:pr-12 ${
         isNavOpen ? "shadow" : ""
       }`}
     >
-      <div className="relative flex items-center mx-auto text-blue-gray-900">
+      <div className="relative lg:flex items-center grid grid-cols-3 mx-auto text-blue-gray-900">
         <a href="/" className="mr-4 ml-2 py-1.5 cursor-pointer">
-          <img src={navLogoImg.src} className="w-[5.25rem] lg:w-[9rem]" />
+          <img
+            src={navLogoImg.src}
+            className="w-[5.25rem] lg:w-[144px] lg:h-[34px]"
+          />
         </a>
 
+        {/* Links */}
         <div className="hidden lg:flex justify-center w-full">
           <NavTabs />
         </div>
 
+        <Button className="bg-gradient-to-r from-[#C47EFC] to-[#0F17C3] lg:mx-2 px-2 lg:px-6 py-3 rounded-full font-semibold normal-case">
+          {t("nav.loginRegis")}
+        </Button>
+
+        {/* Language switcher */}
         <div className="hidden lg:flex ml-auto">
           <NavList />
         </div>
